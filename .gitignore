@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.optera_cache/
+out/
+!out/.gitkeep
+
+# Client photographs are NOT redistributed.
+# The starter README says "please use it just for this challenge and don't
+# redistribute it", so the images are deliberately not committed. Drop them
+# into data/images/ to run. Ground-truth labels are keyed by the original
+# filenames, so no renaming is needed.
+data/images/*.jpg
+data/images/*.jpeg
+data/images/*.png
+data/images/*.webp

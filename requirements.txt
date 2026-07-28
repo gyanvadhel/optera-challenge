@@ -1,0 +1,8 @@
+# Core — required.
+Pillow>=10.0.0
+
+# Live providers — install whichever you have a key for.
+# With neither installed (and no key set) run.py falls back to the
+# deterministic offline simulator and still produces a full report.
+google-genai>=1.0.0      # Gemini  — free key at https://aistudio.google.com/apikey
+anthropic>=0.70.0        # Claude  — prepaid credit at https://console.anthropic.com

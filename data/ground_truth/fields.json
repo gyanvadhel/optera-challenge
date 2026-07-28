@@ -1,0 +1,111 @@
+{
+  "_comment": "Field-level ground truth, hand-transcribed from the images. DELIBERATELY PARTIAL: only fields I could read with certainty are recorded, and the evaluator scores a document only on the keys present here. Transcribing all 25 multilingual handwritten work reports in full was out of scope for 24 hours, so work reports are scored on header fields (depot, date) plus one fully transcribed page (doc_10) as a spot check. See DESIGN.md 'Where this breaks'.",
+
+  "optera_doc_01": { "doc_class": "work_report", "depot": "VADAJ", "report_date": "2026-06-07" },
+  "optera_doc_03": { "doc_class": "work_report", "depot": "PALDI", "report_date": "2026-06-08", "_note": "Corrected from 2026-06-02 after a live run disagreed and re-inspection of the header at full resolution showed the model was right. My original label was misread from a contact sheet." },
+  "optera_doc_04": { "doc_class": "work_report", "depot": "PALDI", "report_date": "2026-06-19" },
+  "optera_doc_05": { "doc_class": "work_report", "depot": "PALDI", "report_date": "2026-06-19" },
+  "optera_doc_06": { "doc_class": "work_report", "depot": "SARANGPUR", "report_date": "2026-06-10" },
+  "optera_doc_07": { "doc_class": "work_report", "depot": "PALDI", "report_date": "2026-06-11" },
+  "optera_doc_08": { "doc_class": "work_report", "depot": "PALDI", "report_date": "2026-06-13" },
+  "optera_doc_10": {
+    "doc_class": "work_report",
+    "depot": "PALDI",
+    "report_date": "2026-06-13",
+    "page_no": "02",
+    "entry_vehicle_codes": ["TAM23", "MAM38", "TCM47", "TAM12", "TCM54", "TCM60", "MAM15", "TCM52", "TAM25", "TCM60", "MAM15"]
+  },
+  "optera_doc_11": { "doc_class": "work_report", "depot": "SARANGPUR", "report_date": "2026-06-14" },
+  "optera_doc_13": { "doc_class": "work_report", "depot": "PALDI", "report_date": "2026-06-13" },
+  "optera_doc_15": { "doc_class": "work_report", "depot": "REMCO", "report_date": "2026-06-15" },
+  "optera_doc_17": { "doc_class": "work_report", "depot": "VADAJ", "report_date": "2026-06-16" },
+  "optera_doc_19": { "doc_class": "work_report", "depot": "SARANGPUR", "report_date": "2026-06-17" },
+  "optera_doc_20": { "doc_class": "work_report", "depot": "PALDI", "report_date": "2026-06-16" },
+
+  "optera_doc_26": {
+    "doc_class": "vendor_invoice", "document_kind": "tax_invoice",
+    "vendor_name": "ANUPAM ENTERPRISE", "vendor_gstin": "24ACWPP0885C1ZB",
+    "buyer_gstin": "24ABNPR5802P1Z2",
+    "invoice_no": "AE/268/26-27", "invoice_date": "2026-06-20",
+    "subtotal": 13220.34, "cgst": 1189.83, "sgst": 1189.83, "total": 15600.00, "currency": "INR"
+  },
+  "optera_doc_27": {
+    "doc_class": "vendor_invoice", "document_kind": "bill_of_supply",
+    "vendor_name": "KIRAN GREASING SERVICE",
+    "invoice_date": "2026-06-28", "vehicle_no": "GJ06AV4045", "total": 200.00, "currency": "INR"
+  },
+  "optera_doc_28": {
+    "doc_class": "vendor_invoice", "document_kind": "cash_memo",
+    "vendor_name": "TIWARI AUTO PARTS",
+    "invoice_no": "312", "invoice_date": "2026-07-08",
+    "vehicle_no": "GJ16AV9065", "total": 1750.00, "currency": "INR"
+  },
+  "optera_doc_29": {
+    "doc_class": "vendor_invoice",
+    "vendor_name": "SINDHI ASLAM IQBAL",
+    "invoice_no": "1380", "invoice_date": "2026-06-15",
+    "vehicle_no": "GJ16AU6155", "total": 500.00, "currency": "INR"
+  },
+  "optera_doc_30": {
+    "doc_class": "vendor_invoice", "document_kind": "tax_invoice",
+    "vendor_name": "SHIV SHAKTI MOTORS", "vendor_gstin": "24AKWPP5497L1Z1",
+    "buyer_name": "DASHMESH TRANSPORT COMPANY", "buyer_gstin": "24ABNPR5802P1Z2",
+    "invoice_no": "GSTT/3402", "invoice_date": "2026-07-20",
+    "vehicle_no": "GJ05AU4001",
+    "subtotal": 1697.16, "cgst": 151.45, "sgst": 151.45, "round_off": -0.06,
+    "total": 2000.00, "currency": "INR"
+  },
+  "optera_doc_31": {
+    "doc_class": "vendor_invoice", "document_kind": "tax_invoice",
+    "vendor_name": "M K MOTORS", "vendor_gstin": "24AAOFM2723Q1ZT",
+    "buyer_name": "DASHMESH TRANSPORT COMPANY", "buyer_gstin": "24ABNPR5802P1Z2",
+    "invoice_no": "CSRMKB3270000270", "invoice_date": "2026-07-02",
+    "vehicle_no": "GJ16AU6145",
+    "subtotal": 544.92, "cgst": 49.04, "sgst": 49.04, "total": 643.00, "currency": "INR"
+  },
+  "optera_doc_32": {
+    "doc_class": "vendor_invoice", "document_kind": "credit_memo",
+    "vendor_name": "PURAN CAR SEAT",
+    "invoice_no": "691", "invoice_date": "2026-06-04",
+    "vehicle_no": "GJ16AU6545", "total": 1400.00, "currency": "INR"
+  },
+  "optera_doc_35": {
+    "doc_class": "vendor_invoice", "document_kind": "cash_memo",
+    "vendor_name": "SAJID TYRE SERVICE",
+    "invoice_no": "196", "invoice_date": "2026-07-07",
+    "vehicle_no": "GJ16AV2305", "total": 600.00, "currency": "INR"
+  },
+  "optera_doc_43": {
+    "doc_class": "vendor_invoice", "document_kind": "tax_invoice",
+    "vendor_name": "JAVID SABIRBHAI SUNASARA",
+    "buyer_name": "DASHMESH TRANSPORT COMPANY", "buyer_gstin": "24ABNPR5802P1Z2",
+    "invoice_no": "1243", "invoice_date": "2026-07-19",
+    "vehicle_no": "GJ16AY4825",
+    "cgst": 179.85, "sgst": 179.85, "total": 2358.00, "currency": "INR"
+  },
+  "optera_doc_47": {
+    "doc_class": "vendor_invoice", "document_kind": "delivery_challan",
+    "vendor_name": "ANUPAM ENTERPRISE", "vendor_gstin": "24ACWPP0885C1ZB",
+    "invoice_no": "127", "vehicle_no": "GJ12BT9542",
+    "_note": "Delivery challan: rate and amount columns are blank on the original, so there is no total to extract. Scored on identity fields only."
+  },
+
+  "optera_doc_37": { "doc_class": "meter_reading", "reading_kind": "odometer", "odometer_km": 188973 },
+  "optera_doc_38": { "doc_class": "meter_reading", "reading_kind": "odometer", "odometer_km": 32065.4, "trip_km": 1458.1 },
+  "optera_doc_39": { "doc_class": "meter_reading", "reading_kind": "odometer", "odometer_km": 316176, "trip_km": 1308.1 },
+  "optera_doc_41": {
+    "doc_class": "meter_reading", "reading_kind": "def_dispenser",
+    "amount_inr": 3199.76, "litres": 43.24, "rate_per_litre": 74.00, "urea_concentration_pct": 32.50
+  },
+  "optera_doc_42": { "doc_class": "meter_reading", "reading_kind": "odometer", "odometer_km": 37057.9, "trip_km": 38.6 },
+  "optera_doc_44": {
+    "doc_class": "meter_reading", "reading_kind": "odometer",
+    "_note": "Cluster digits are genuinely ambiguous at this exposure; deliberately not scored on a numeric value. A correct pipeline should report low confidence here, not a number."
+  },
+
+  "optera_doc_34": { "doc_class": "not_a_document", "subject": "tyre" },
+  "optera_doc_36": { "doc_class": "not_a_document", "subject": "tyre" },
+  "optera_doc_40": { "doc_class": "not_a_document", "subject": "fuel_cap" },
+  "optera_doc_45": { "doc_class": "not_a_document", "subject": "battery" },
+  "optera_doc_46": { "doc_class": "not_a_document", "subject": "battery" }
+}
